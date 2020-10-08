@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEE6B73252EDC5F00DD58EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B72252EDC5F00DD58EB /* AppDelegate.swift */; };
+		CAEE6B75252EDC5F00DD58EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B74252EDC5F00DD58EB /* SceneDelegate.swift */; };
+		CAEE6B77252EDC5F00DD58EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B76252EDC5F00DD58EB /* ViewController.swift */; };
+		CAEE6B7A252EDC5F00DD58EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEE6B78252EDC5F00DD58EB /* Main.storyboard */; };
+		CAEE6B7C252EDC6000DD58EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEE6B7B252EDC6000DD58EB /* Assets.xcassets */; };
+		CAEE6B7F252EDC6000DD58EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEE6B7D252EDC6000DD58EB /* LaunchScreen.storyboard */; };
+		CAEE6B8A252EDC6000DD58EB /* PenDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B89252EDC6000DD58EB /* PenDetectorTests.swift */; };
+		CAEE6B95252EDC6100DD58EB /* PenDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B94252EDC6100DD58EB /* PenDetectorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEE6B86252EDC6000DD58EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEE6B67252EDC5F00DD58EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEE6B6E252EDC5F00DD58EB;
+			remoteInfo = PenDetector;
+		};
+		CAEE6B91252EDC6100DD58EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEE6B67252EDC5F00DD58EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEE6B6E252EDC5F00DD58EB;
+			remoteInfo = PenDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEE6B6F252EDC5F00DD58EB /* PenDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEE6B72252EDC5F00DD58EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAEE6B74252EDC5F00DD58EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAEE6B76252EDC5F00DD58EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAEE6B79252EDC5F00DD58EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEE6B7B252EDC6000DD58EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEE6B7E252EDC6000DD58EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAEE6B80252EDC6000DD58EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEE6B85252EDC6000DD58EB /* PenDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEE6B89252EDC6000DD58EB /* PenDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenDetectorTests.swift; sourceTree = "<group>"; };
+		CAEE6B8B252EDC6000DD58EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEE6B90252EDC6100DD58EB /* PenDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEE6B94252EDC6100DD58EB /* PenDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenDetectorUITests.swift; sourceTree = "<group>"; };
+		CAEE6B96252EDC6100DD58EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEE6B6C252EDC5F00DD58EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEE6B82252EDC6000DD58EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEE6B8D252EDC6100DD58EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEE6B66252EDC5F00DD58EB = {
+			isa = PBXGroup;
+			children = (
+				CAEE6B71252EDC5F00DD58EB /* PenDetector */,
+				CAEE6B88252EDC6000DD58EB /* PenDetectorTests */,
+				CAEE6B93252EDC6100DD58EB /* PenDetectorUITests */,
+				CAEE6B70252EDC5F00DD58EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEE6B70252EDC5F00DD58EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE6B6F252EDC5F00DD58EB /* PenDetector.app */,
+				CAEE6B85252EDC6000DD58EB /* PenDetectorTests.xctest */,
+				CAEE6B90252EDC6100DD58EB /* PenDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEE6B71252EDC5F00DD58EB /* PenDetector */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE6B72252EDC5F00DD58EB /* AppDelegate.swift */,
+				CAEE6B74252EDC5F00DD58EB /* SceneDelegate.swift */,
+				CAEE6B76252EDC5F00DD58EB /* ViewController.swift */,
+				CAEE6B78252EDC5F00DD58EB /* Main.storyboard */,
+				CAEE6B7B252EDC6000DD58EB /* Assets.xcassets */,
+				CAEE6B7D252EDC6000DD58EB /* LaunchScreen.storyboard */,
+				CAEE6B80252EDC6000DD58EB /* Info.plist */,
+			);
+			path = PenDetector;
+			sourceTree = "<group>";
+		};
+		CAEE6B88252EDC6000DD58EB /* PenDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE6B89252EDC6000DD58EB /* PenDetectorTests.swift */,
+				CAEE6B8B252EDC6000DD58EB /* Info.plist */,
+			);
+			path = PenDetectorTests;
+			sourceTree = "<group>";
+		};
+		CAEE6B93252EDC6100DD58EB /* PenDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE6B94252EDC6100DD58EB /* PenDetectorUITests.swift */,
+				CAEE6B96252EDC6100DD58EB /* Info.plist */,
+			);
+			path = PenDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEE6B6E252EDC5F00DD58EB /* PenDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEE6B99252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetector" */;
+			buildPhases = (
+				CAEE6B6B252EDC5F00DD58EB /* Sources */,
+				CAEE6B6C252EDC5F00DD58EB /* Frameworks */,
+				CAEE6B6D252EDC5F00DD58EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenDetector;
+			productName = PenDetector;
+			productReference = CAEE6B6F252EDC5F00DD58EB /* PenDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEE6B84252EDC6000DD58EB /* PenDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEE6B9C252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetectorTests" */;
+			buildPhases = (
+				CAEE6B81252EDC6000DD58EB /* Sources */,
+				CAEE6B82252EDC6000DD58EB /* Frameworks */,
+				CAEE6B83252EDC6000DD58EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEE6B87252EDC6000DD58EB /* PBXTargetDependency */,
+			);
+			name = PenDetectorTests;
+			productName = PenDetectorTests;
+			productReference = CAEE6B85252EDC6000DD58EB /* PenDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAEE6B8F252EDC6100DD58EB /* PenDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEE6B9F252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetectorUITests" */;
+			buildPhases = (
+				CAEE6B8C252EDC6100DD58EB /* Sources */,
+				CAEE6B8D252EDC6100DD58EB /* Frameworks */,
+				CAEE6B8E252EDC6100DD58EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEE6B92252EDC6100DD58EB /* PBXTargetDependency */,
+			);
+			name = PenDetectorUITests;
+			productName = PenDetectorUITests;
+			productReference = CAEE6B90252EDC6100DD58EB /* PenDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEE6B67252EDC5F00DD58EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CAEE6B6E252EDC5F00DD58EB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CAEE6B84252EDC6000DD58EB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CAEE6B6E252EDC5F00DD58EB;
+					};
+					CAEE6B8F252EDC6100DD58EB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CAEE6B6E252EDC5F00DD58EB;
+					};
+				};
+			};
+			buildConfigurationList = CAEE6B6A252EDC5F00DD58EB /* Build configuration list for PBXProject "PenDetector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEE6B66252EDC5F00DD58EB;
+			productRefGroup = CAEE6B70252EDC5F00DD58EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEE6B6E252EDC5F00DD58EB /* PenDetector */,
+				CAEE6B84252EDC6000DD58EB /* PenDetectorTests */,
+				CAEE6B8F252EDC6100DD58EB /* PenDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEE6B6D252EDC5F00DD58EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEE6B7F252EDC6000DD58EB /* LaunchScreen.storyboard in Resources */,
+				CAEE6B7C252EDC6000DD58EB /* Assets.xcassets in Resources */,
+				CAEE6B7A252EDC5F00DD58EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEE6B83252EDC6000DD58EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEE6B8E252EDC6100DD58EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEE6B6B252EDC5F00DD58EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEE6B77252EDC5F00DD58EB /* ViewController.swift in Sources */,
+				CAEE6B73252EDC5F00DD58EB /* AppDelegate.swift in Sources */,
+				CAEE6B75252EDC5F00DD58EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEE6B81252EDC6000DD58EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEE6B8A252EDC6000DD58EB /* PenDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEE6B8C252EDC6100DD58EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEE6B95252EDC6100DD58EB /* PenDetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEE6B87252EDC6000DD58EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEE6B6E252EDC5F00DD58EB /* PenDetector */;
+			targetProxy = CAEE6B86252EDC6000DD58EB /* PBXContainerItemProxy */;
+		};
+		CAEE6B92252EDC6100DD58EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEE6B6E252EDC5F00DD58EB /* PenDetector */;
+			targetProxy = CAEE6B91252EDC6100DD58EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEE6B78252EDC5F00DD58EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEE6B79252EDC5F00DD58EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEE6B7D252EDC6000DD58EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEE6B7E252EDC6000DD58EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEE6B97252EDC6100DD58EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAEE6B98252EDC6100DD58EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEE6B9A252EDC6100DD58EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX55JPQCCN;
+				INFOPLIST_FILE = PenDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guru.PenDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAEE6B9B252EDC6100DD58EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX55JPQCCN;
+				INFOPLIST_FILE = PenDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guru.PenDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAEE6B9D252EDC6100DD58EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX55JPQCCN;
+				INFOPLIST_FILE = PenDetectorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guru.PenDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenDetector.app/PenDetector";
+			};
+			name = Debug;
+		};
+		CAEE6B9E252EDC6100DD58EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX55JPQCCN;
+				INFOPLIST_FILE = PenDetectorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guru.PenDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenDetector.app/PenDetector";
+			};
+			name = Release;
+		};
+		CAEE6BA0252EDC6100DD58EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX55JPQCCN;
+				INFOPLIST_FILE = PenDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guru.PenDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PenDetector;
+			};
+			name = Debug;
+		};
+		CAEE6BA1252EDC6100DD58EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX55JPQCCN;
+				INFOPLIST_FILE = PenDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guru.PenDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PenDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEE6B6A252EDC5F00DD58EB /* Build configuration list for PBXProject "PenDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEE6B97252EDC6100DD58EB /* Debug */,
+				CAEE6B98252EDC6100DD58EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEE6B99252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEE6B9A252EDC6100DD58EB /* Debug */,
+				CAEE6B9B252EDC6100DD58EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEE6B9C252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEE6B9D252EDC6100DD58EB /* Debug */,
+				CAEE6B9E252EDC6100DD58EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEE6B9F252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEE6BA0252EDC6100DD58EB /* Debug */,
+				CAEE6BA1252EDC6100DD58EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEE6B67252EDC5F00DD58EB /* Project object */;
+}
