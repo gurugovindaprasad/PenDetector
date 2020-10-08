@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AB52925ACDD18A20585B098 /* Pods_PenDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E3BBF6D11B256A8FB785C /* Pods_PenDetector.framework */; };
+		BE47859FBA0A4D87E1CCEC32 /* Pods_PenDetectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A6970BD07A3781588C9864 /* Pods_PenDetectorTests.framework */; };
+		CA817D28252F3E4E005DD62B /* pen.tflite in Resources */ = {isa = PBXBuildFile; fileRef = CA817D27252F3E4E005DD62B /* pen.tflite */; };
+		CA817D2D252F3E68005DD62B /* label.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA817D2C252F3E68005DD62B /* label.txt */; };
+		CA9713BA252EDFB800A3C9C8 /* detect.tflite in Resources */ = {isa = PBXBuildFile; fileRef = CA9713B9252EDFB800A3C9C8 /* detect.tflite */; };
+		CA9713CC252F03BB00A3C9C8 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9713CA252F03BB00A3C9C8 /* PreviewView.swift */; };
+		CA9713CD252F03BB00A3C9C8 /* CameraFeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9713CB252F03BB00A3C9C8 /* CameraFeedManager.swift */; };
+		CA9713D4252F069800A3C9C8 /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9713D2252F069800A3C9C8 /* CurvedView.swift */; };
+		CA9713D5252F069800A3C9C8 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9713D3252F069800A3C9C8 /* OverlayView.swift */; };
+		CA9713DB252F07C400A3C9C8 /* ModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9713DA252F07C400A3C9C8 /* ModelDataHandler.swift */; };
+		CA9713E3252F082700A3C9C8 /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9713E0252F082600A3C9C8 /* CVPixelBufferExtension.swift */; };
+		CA9713E4252F082700A3C9C8 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9713E1252F082700A3C9C8 /* StringExtension.swift */; };
+		CA9713E5252F082700A3C9C8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9713E2252F082700A3C9C8 /* UIColorExtension.swift */; };
+		CA9713EA252F08C200A3C9C8 /* labelmap.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA9713E9252F08C200A3C9C8 /* labelmap.txt */; };
 		CAEE6B73252EDC5F00DD58EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B72252EDC5F00DD58EB /* AppDelegate.swift */; };
 		CAEE6B75252EDC5F00DD58EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B74252EDC5F00DD58EB /* SceneDelegate.swift */; };
 		CAEE6B77252EDC5F00DD58EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B76252EDC5F00DD58EB /* ViewController.swift */; };
@@ -15,6 +29,7 @@
 		CAEE6B7F252EDC6000DD58EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEE6B7D252EDC6000DD58EB /* LaunchScreen.storyboard */; };
 		CAEE6B8A252EDC6000DD58EB /* PenDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B89252EDC6000DD58EB /* PenDetectorTests.swift */; };
 		CAEE6B95252EDC6100DD58EB /* PenDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE6B94252EDC6100DD58EB /* PenDetectorUITests.swift */; };
+		FA9B0318741863876AED2191 /* Pods_PenDetector_PenDetectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3626D439EFDB2B24E139D5C9 /* Pods_PenDetector_PenDetectorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3626D439EFDB2B24E139D5C9 /* Pods_PenDetector_PenDetectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenDetector_PenDetectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A6970BD07A3781588C9864 /* Pods_PenDetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenDetectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69130D5C7FC16E47D27383A9 /* Pods-PenDetector-PenDetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenDetector-PenDetectorUITests.release.xcconfig"; path = "Target Support Files/Pods-PenDetector-PenDetectorUITests/Pods-PenDetector-PenDetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AC5AC6B5BCC778C6967A583 /* Pods-PenDetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenDetectorTests.debug.xcconfig"; path = "Target Support Files/Pods-PenDetectorTests/Pods-PenDetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		707E3BBF6D11B256A8FB785C /* Pods_PenDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7096EE029C9ACBE81A220EB4 /* Pods-PenDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenDetector.debug.xcconfig"; path = "Target Support Files/Pods-PenDetector/Pods-PenDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		C3E1E6CB634381B4497D2549 /* Pods-PenDetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenDetectorTests.release.xcconfig"; path = "Target Support Files/Pods-PenDetectorTests/Pods-PenDetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA817D27252F3E4E005DD62B /* pen.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = pen.tflite; sourceTree = "<group>"; };
+		CA817D2C252F3E68005DD62B /* label.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = label.txt; sourceTree = "<group>"; };
+		CA9713B9252EDFB800A3C9C8 /* detect.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detect.tflite; sourceTree = "<group>"; };
+		CA9713CA252F03BB00A3C9C8 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		CA9713CB252F03BB00A3C9C8 /* CameraFeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFeedManager.swift; sourceTree = "<group>"; };
+		CA9713D2252F069800A3C9C8 /* CurvedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
+		CA9713D3252F069800A3C9C8 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		CA9713DA252F07C400A3C9C8 /* ModelDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
+		CA9713E0252F082600A3C9C8 /* CVPixelBufferExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVPixelBufferExtension.swift; sourceTree = "<group>"; };
+		CA9713E1252F082700A3C9C8 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		CA9713E2252F082700A3C9C8 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		CA9713E9252F08C200A3C9C8 /* labelmap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labelmap.txt; sourceTree = "<group>"; };
 		CAEE6B6F252EDC5F00DD58EB /* PenDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEE6B72252EDC5F00DD58EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAEE6B74252EDC5F00DD58EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +83,8 @@
 		CAEE6B90252EDC6100DD58EB /* PenDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEE6B94252EDC6100DD58EB /* PenDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenDetectorUITests.swift; sourceTree = "<group>"; };
 		CAEE6B96252EDC6100DD58EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42DFA4422CCC433E970517D /* Pods-PenDetector-PenDetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenDetector-PenDetectorUITests.debug.xcconfig"; path = "Target Support Files/Pods-PenDetector-PenDetectorUITests/Pods-PenDetector-PenDetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAADA4E1EE9B2996DE0D293C /* Pods-PenDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenDetector.release.xcconfig"; path = "Target Support Files/Pods-PenDetector/Pods-PenDetector.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB52925ACDD18A20585B098 /* Pods_PenDetector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE47859FBA0A4D87E1CCEC32 /* Pods_PenDetectorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9B0318741863876AED2191 /* Pods_PenDetector_PenDetectorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051FC9D62EFC349439A3BFDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				707E3BBF6D11B256A8FB785C /* Pods_PenDetector.framework */,
+				3626D439EFDB2B24E139D5C9 /* Pods_PenDetector_PenDetectorUITests.framework */,
+				46A6970BD07A3781588C9864 /* Pods_PenDetectorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EB8004F4BB81148169EFC5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7096EE029C9ACBE81A220EB4 /* Pods-PenDetector.debug.xcconfig */,
+				FAADA4E1EE9B2996DE0D293C /* Pods-PenDetector.release.xcconfig */,
+				E42DFA4422CCC433E970517D /* Pods-PenDetector-PenDetectorUITests.debug.xcconfig */,
+				69130D5C7FC16E47D27383A9 /* Pods-PenDetector-PenDetectorUITests.release.xcconfig */,
+				6AC5AC6B5BCC778C6967A583 /* Pods-PenDetectorTests.debug.xcconfig */,
+				C3E1E6CB634381B4497D2549 /* Pods-PenDetectorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA9713B8252EDFA900A3C9C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA9713B9252EDFB800A3C9C8 /* detect.tflite */,
+				CA817D27252F3E4E005DD62B /* pen.tflite */,
+				CA817D2C252F3E68005DD62B /* label.txt */,
+				CA9713E9252F08C200A3C9C8 /* labelmap.txt */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA9713C9252F039100A3C9C8 /* CameraFeed */ = {
+			isa = PBXGroup;
+			children = (
+				CA9713CB252F03BB00A3C9C8 /* CameraFeedManager.swift */,
+				CA9713CA252F03BB00A3C9C8 /* PreviewView.swift */,
+			);
+			path = CameraFeed;
+			sourceTree = "<group>";
+		};
+		CA9713D1252F068500A3C9C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA9713D2252F069800A3C9C8 /* CurvedView.swift */,
+				CA9713D3252F069800A3C9C8 /* OverlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA9713D9252F07B100A3C9C8 /* ModelDataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				CA9713DA252F07C400A3C9C8 /* ModelDataHandler.swift */,
+			);
+			path = ModelDataHandler;
+			sourceTree = "<group>";
+		};
+		CA9713DF252F081800A3C9C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA9713E0252F082600A3C9C8 /* CVPixelBufferExtension.swift */,
+				CA9713E1252F082700A3C9C8 /* StringExtension.swift */,
+				CA9713E2252F082700A3C9C8 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CAEE6B66252EDC5F00DD58EB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +192,8 @@
 				CAEE6B88252EDC6000DD58EB /* PenDetectorTests */,
 				CAEE6B93252EDC6100DD58EB /* PenDetectorUITests */,
 				CAEE6B70252EDC5F00DD58EB /* Products */,
+				4EB8004F4BB81148169EFC5A /* Pods */,
+				051FC9D62EFC349439A3BFDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +213,11 @@
 				CAEE6B72252EDC5F00DD58EB /* AppDelegate.swift */,
 				CAEE6B74252EDC5F00DD58EB /* SceneDelegate.swift */,
 				CAEE6B76252EDC5F00DD58EB /* ViewController.swift */,
+				CA9713DF252F081800A3C9C8 /* Extensions */,
+				CA9713D9252F07B100A3C9C8 /* ModelDataHandler */,
+				CA9713D1252F068500A3C9C8 /* Views */,
+				CA9713C9252F039100A3C9C8 /* CameraFeed */,
+				CA9713B8252EDFA900A3C9C8 /* Models */,
 				CAEE6B78252EDC5F00DD58EB /* Main.storyboard */,
 				CAEE6B7B252EDC6000DD58EB /* Assets.xcassets */,
 				CAEE6B7D252EDC6000DD58EB /* LaunchScreen.storyboard */,
@@ -135,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAEE6B99252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetector" */;
 			buildPhases = (
+				03C608CF25952D5EC89CB7C1 /* [CP] Check Pods Manifest.lock */,
 				CAEE6B6B252EDC5F00DD58EB /* Sources */,
 				CAEE6B6C252EDC5F00DD58EB /* Frameworks */,
 				CAEE6B6D252EDC5F00DD58EB /* Resources */,
@@ -152,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAEE6B9C252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetectorTests" */;
 			buildPhases = (
+				AA741463898169B3B9229C2A /* [CP] Check Pods Manifest.lock */,
 				CAEE6B81252EDC6000DD58EB /* Sources */,
 				CAEE6B82252EDC6000DD58EB /* Frameworks */,
 				CAEE6B83252EDC6000DD58EB /* Resources */,
@@ -170,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAEE6B9F252EDC6100DD58EB /* Build configuration list for PBXNativeTarget "PenDetectorUITests" */;
 			buildPhases = (
+				6C1430B672031FD81767C06D /* [CP] Check Pods Manifest.lock */,
 				CAEE6B8C252EDC6100DD58EB /* Sources */,
 				CAEE6B8D252EDC6100DD58EB /* Frameworks */,
 				CAEE6B8E252EDC6100DD58EB /* Resources */,
@@ -232,8 +351,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAEE6B7F252EDC6000DD58EB /* LaunchScreen.storyboard in Resources */,
+				CA817D28252F3E4E005DD62B /* pen.tflite in Resources */,
+				CA9713BA252EDFB800A3C9C8 /* detect.tflite in Resources */,
+				CA817D2D252F3E68005DD62B /* label.txt in Resources */,
 				CAEE6B7C252EDC6000DD58EB /* Assets.xcassets in Resources */,
 				CAEE6B7A252EDC5F00DD58EB /* Main.storyboard in Resources */,
+				CA9713EA252F08C200A3C9C8 /* labelmap.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +376,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03C608CF25952D5EC89CB7C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenDetector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1430B672031FD81767C06D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenDetector-PenDetectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA741463898169B3B9229C2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenDetectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAEE6B6B252EDC5F00DD58EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CAEE6B77252EDC5F00DD58EB /* ViewController.swift in Sources */,
+				CA9713D4252F069800A3C9C8 /* CurvedView.swift in Sources */,
+				CA9713E4252F082700A3C9C8 /* StringExtension.swift in Sources */,
+				CA9713E3252F082700A3C9C8 /* CVPixelBufferExtension.swift in Sources */,
+				CA9713DB252F07C400A3C9C8 /* ModelDataHandler.swift in Sources */,
+				CA9713D5252F069800A3C9C8 /* OverlayView.swift in Sources */,
+				CA9713CC252F03BB00A3C9C8 /* PreviewView.swift in Sources */,
+				CA9713CD252F03BB00A3C9C8 /* CameraFeedManager.swift in Sources */,
+				CA9713E5252F082700A3C9C8 /* UIColorExtension.swift in Sources */,
 				CAEE6B73252EDC5F00DD58EB /* AppDelegate.swift in Sources */,
 				CAEE6B75252EDC5F00DD58EB /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +633,7 @@
 		};
 		CAEE6B9A252EDC6100DD58EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7096EE029C9ACBE81A220EB4 /* Pods-PenDetector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +647,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.guru.PenDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CAEE6B9B252EDC6100DD58EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAADA4E1EE9B2996DE0D293C /* Pods-PenDetector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +667,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.guru.PenDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CAEE6B9D252EDC6100DD58EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC5AC6B5BCC778C6967A583 /* Pods-PenDetectorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +696,7 @@
 		};
 		CAEE6B9E252EDC6100DD58EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E1E6CB634381B4497D2549 /* Pods-PenDetectorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +719,7 @@
 		};
 		CAEE6BA0252EDC6100DD58EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42DFA4422CCC433E970517D /* Pods-PenDetector-PenDetectorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +740,7 @@
 		};
 		CAEE6BA1252EDC6100DD58EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69130D5C7FC16E47D27383A9 /* Pods-PenDetector-PenDetectorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

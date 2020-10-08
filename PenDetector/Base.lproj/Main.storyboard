@@ -1,24 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PenDetector" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vJ4-kN-MuL" customClass="PreviewView" customModule="PenDetector" customModuleProvider="target">
+                                <rect key="frame" x="18" y="44" width="339" height="579"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSw-4z-Nv2" customClass="OverlayView" customModule="PenDetector" customModuleProvider="target">
+                                <rect key="frame" x="18" y="44" width="339" height="579"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vJ4-kN-MuL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Q4-i6-XSt"/>
+                            <constraint firstItem="vJ4-kN-MuL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="4Y3-RB-dQ1"/>
+                            <constraint firstItem="vJ4-kN-MuL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="I4H-gf-1mV"/>
+                            <constraint firstItem="aSw-4z-Nv2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="KDe-xA-VVD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aSw-4z-Nv2" secondAttribute="bottom" constant="44" id="MR7-CK-FyA"/>
+                            <constraint firstItem="aSw-4z-Nv2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OTr-lo-fNp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vJ4-kN-MuL" secondAttribute="trailing" constant="18" id="RXk-ca-WdB"/>
+                            <constraint firstItem="vJ4-kN-MuL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="V67-H6-uLU"/>
+                            <constraint firstItem="aSw-4z-Nv2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZmP-gR-Ceg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aSw-4z-Nv2" secondAttribute="trailing" constant="18" id="gMn-62-dw2"/>
+                            <constraint firstItem="aSw-4z-Nv2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="vOd-2Y-FxZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="overlayView" destination="aSw-4z-Nv2" id="Xw2-Jv-gqw"/>
+                        <outlet property="previewView" destination="vJ4-kN-MuL" id="YoJ-jZ-dEU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-197.59999999999999" y="75.112443778110944"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
