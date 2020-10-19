@@ -36,7 +36,7 @@ typealias FileInfo = (name: String, extension: String)
 
 /// Information about the MobileNet SSD model.
 enum MobileNetSSD {
-  static let modelInfo: FileInfo = (name: "pen_model", extension: "tflite")
+  static let modelInfo: FileInfo = (name: "pen_model_new", extension: "tflite")
   static let labelsInfo: FileInfo = (name: "labels", extension: "txt")
 }
 
@@ -48,7 +48,7 @@ class ModelDataHandler: NSObject {
   // MARK: - Internal Properties
   /// The current thread count used by the TensorFlow Lite Interpreter.
   let threadCount: Int
-  let threadCountLimit = 1
+  let threadCountLimit = 10
 
   let threshold: Float = 0.5
 

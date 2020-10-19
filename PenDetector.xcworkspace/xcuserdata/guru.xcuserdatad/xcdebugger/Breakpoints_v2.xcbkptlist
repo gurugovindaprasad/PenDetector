@@ -7,16 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5D031C37-E315-410F-A453-4710A571C439"
+            uuid = "CAB67DF2-5784-45A5-AE10-B5F3E62CE741"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PenDetector/ModelDataHandler/ModelDataHandler.swift"
+            filePath = "PenDetector/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
-            landmarkName = "runModel(onFrame:)"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "draw(objectOverlays:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD01107C-2C7E-44AA-89AF-36887845AB2E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PenDetector/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "drawAfterPerformingCalculations(onInferences:withImageSize:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
