@@ -130,6 +130,8 @@ extension ViewController: CameraFeedManagerDelegate {
       var objectOverlays: [ObjectOverlay] = []
 
       for inference in inferences {
+        
+       // print(inference)
 
         // Translates bounding box rect to current view.
         var convertedRect = inference.rect.applying(CGAffineTransform(scaleX: self.overlayView.bounds.size.width / imageSize.width, y: self.overlayView.bounds.size.height / imageSize.height))

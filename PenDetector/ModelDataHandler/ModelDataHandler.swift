@@ -36,8 +36,8 @@ typealias FileInfo = (name: String, extension: String)
 
 /// Information about the MobileNet SSD model.
 enum MobileNetSSD {
-  static let modelInfo: FileInfo = (name: "detect", extension: "tflite")
-  static let labelsInfo: FileInfo = (name: "labelmap", extension: "txt")
+  static let modelInfo: FileInfo = (name: "pen_model", extension: "tflite")
+  static let labelsInfo: FileInfo = (name: "labels", extension: "txt")
 }
 
 /// This class handles all data preprocessing and makes calls to run inference on a given frame
@@ -48,19 +48,19 @@ class ModelDataHandler: NSObject {
   // MARK: - Internal Properties
   /// The current thread count used by the TensorFlow Lite Interpreter.
   let threadCount: Int
-  let threadCountLimit = 10
+  let threadCountLimit = 1
 
   let threshold: Float = 0.5
 
   // MARK: Model parameters
-  let batchSize = 1
+  let batchSize = 2
   let inputChannels = 3
   let inputWidth = 300
   let inputHeight = 300
 
   // image mean and std for floating model, should be consistent with parameters used in model training
-  let imageMean: Float = 127.5
-  let imageStd:  Float = 127.5
+  let imageMean: Float = 128
+  let imageStd:  Float = 127
 
   // MARK: Private properties
   private var labels: [String] = []

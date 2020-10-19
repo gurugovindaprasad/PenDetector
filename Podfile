@@ -7,7 +7,8 @@ target 'PenDetector' do
 
   # Pods for PenDetector
 
-   pod 'TensorFlowLiteSwift'
+   pod 'TensorFlowLiteSwift', '~> 2.3.0'
+
 
 
   target 'PenDetectorTests' do
